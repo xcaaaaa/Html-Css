@@ -62,3 +62,32 @@ border-radius:6px;
 display:flex;
 gap:20px;
 }
+.serach{
+display:flex;
+box-sizing:border-box;
+align-items:center;
+justify-content:center;
+height:50px;
+}
+.serach >label{
+height:100%;
+line-height:50px;
+padding-right:8px;
+cursor:pointer;
+}
+.serach >input{
+height:50%;
+width:200px;
+border:1px solid #ccc;
+border-radius:4px;
+}
+.Welcome{
+padding:0 10px;
+}
+.welcome{
+background-image:linear-gradient(to right,blue,pink);
+-webkit-background-clip:text;
+background-clip:text;
+color:transparent;
+font-weight:bold;
+}
